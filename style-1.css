@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+.container {
+  width: 1000px;
+  border: 5px solid black;
+  margin: 100px auto;
+  position: relative;
+}
+
+.ten-giay {
+  background-color: rgb(204, 204, 204);
+  font-size: 26px;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 1000;
+}
+
+.container-flex {
+  display: flex;
+  gap: 35px;
+}
+
+.anh-giay {
+  width: 300px;
+  height: auto;
+}
+
+.product-info {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.gia-tien {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.ship {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.thongtin {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.sale {
+  display: inline-block;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: red;
+  padding: 6px 16px 6px 18px;
+  color: yellow;
+  font-weight: bold;
+  letter-spacing: 4px;
+  border-radius: 10px;
+  position: absolute;
+  top: -18px;
+  left: -50px;
+}
+
+.info-link:link,
+.info-link:visited {
+  display: block;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(131, 83, 27);
+}
+
+.info-link:hover {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+.color {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+
+.color:hover {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+
+.color-green {
+  background-color: green;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.product-details {
+  width: 300px;
+  margin-top: 30px;
+}
+
+.product {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.product-details li {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.add-card {
+  background-color: black;
+  border: none;
+  border-top: 4px solid black;
+  padding: 16px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.add-card:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
